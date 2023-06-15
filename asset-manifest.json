@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Muavia-Portfolio/static/css/main.23a81dbf.css",
+    "main.js": "/Muavia-Portfolio/static/js/main.edc94633.js",
+    "static/css/623.3e59d6d3.chunk.css": "/Muavia-Portfolio/static/css/623.3e59d6d3.chunk.css",
+    "static/js/623.07d69950.chunk.js": "/Muavia-Portfolio/static/js/623.07d69950.chunk.js",
+    "static/js/469.f2397a0b.chunk.js": "/Muavia-Portfolio/static/js/469.f2397a0b.chunk.js",
+    "static/media/secondblog.jpg": "/Muavia-Portfolio/static/media/secondblog.4437f3c2dfce28ddc38a.jpg",
+    "static/media/background.jpg": "/Muavia-Portfolio/static/media/background.076fbdf26f56ba61597b.jpg",
+    "static/media/profile5.jpg": "/Muavia-Portfolio/static/media/profile5.8da665b77c73417337f7.jpg",
+    "static/media/img1.jpg": "/Muavia-Portfolio/static/media/img1.c6f750d96550efeb917d.jpg",
+    "static/media/img5.jpg": "/Muavia-Portfolio/static/media/img5.b29dde9cc28a3e662d83.jpg",
+    "static/media/img6.jpg": "/Muavia-Portfolio/static/media/img6.3d63c882bf9acb9507fd.jpg",
+    "static/media/img8.jpg": "/Muavia-Portfolio/static/media/img8.a492f6adb0aa7e172642.jpg",
+    "static/media/img10.jpg": "/Muavia-Portfolio/static/media/img10.3dc93b268681a18afa9a.jpg",
+    "static/media/img4.jpg": "/Muavia-Portfolio/static/media/img4.6981c44f9155f4d5e2c4.jpg",
+    "static/media/img9.jpg": "/Muavia-Portfolio/static/media/img9.148d0618bd5b52b4fdac.jpg",
+    "static/media/img2.jpg": "/Muavia-Portfolio/static/media/img2.ee6eb92ce814afb913fa.jpg",
+    "static/media/img7.jpg": "/Muavia-Portfolio/static/media/img7.2f54f614e326c716dd01.jpg",
+    "static/media/bloguser4.avif": "/Muavia-Portfolio/static/media/bloguser4.339a5cc9e3e10878d61e.avif",
+    "static/media/bloguser3.avif": "/Muavia-Portfolio/static/media/bloguser3.b6cfc5f4861123f80afd.avif",
+    "static/media/img3.jpg": "/Muavia-Portfolio/static/media/img3.4e0e9ebe357e3cadf8c1.jpg",
+    "static/media/bloguser2.avif": "/Muavia-Portfolio/static/media/bloguser2.77dd3e522481ebaadf7d.avif",
+    "static/media/img11.jpg": "/Muavia-Portfolio/static/media/img11.1a362f8af56f5b32c6af.jpg",
+    "index.html": "/Muavia-Portfolio/index.html",
+    "main.23a81dbf.css.map": "/Muavia-Portfolio/static/css/main.23a81dbf.css.map",
+    "main.edc94633.js.map": "/Muavia-Portfolio/static/js/main.edc94633.js.map",
+    "623.3e59d6d3.chunk.css.map": "/Muavia-Portfolio/static/css/623.3e59d6d3.chunk.css.map",
+    "623.07d69950.chunk.js.map": "/Muavia-Portfolio/static/js/623.07d69950.chunk.js.map",
+    "469.f2397a0b.chunk.js.map": "/Muavia-Portfolio/static/js/469.f2397a0b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23a81dbf.css",
+    "static/js/main.edc94633.js"
+  ]
+}
