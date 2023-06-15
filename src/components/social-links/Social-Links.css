@@ -1,0 +1,13 @@
+.soial-links {
+  display: flex;
+  align-items: center;
+  padding: 40px 0px 0px 0px;
+  justify-content: center;
+  gap: 12px;
+}
+.soial-links a {
+  color: #808080;
+}
+.soial-links a:hover {
+  color: #ffffff;
+}
