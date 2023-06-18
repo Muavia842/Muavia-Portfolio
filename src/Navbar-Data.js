@@ -1,20 +1,16 @@
 import React from "react";
 
 import { AiOutlineHome, AiOutlineSchedule } from "react-icons/ai";
-// import { RiBookLine } from "react-icons/ri";
 import { MdOutlineMail } from "react-icons/md";
 import { BiUser, BiLaptop } from "react-icons/bi";
-// import { BsReverseLayoutTextSidebarReverse } from "react-icons/bs";
 import { GiEvilBook } from "react-icons/gi";
 import { HiOutlineCode } from "react-icons/hi";
 import { FaLaptopCode, FaEye } from "react-icons/fa";
 import { TiHtml5 } from "react-icons/ti";
 import { VscSymbolInterface } from "react-icons/vsc";
-// import { GrOptimize } from "react-icons/gr";
 import { CgWebsite } from "react-icons/cg";
 import { SiMinutemailer, SiGoogleoptimize } from "react-icons/si";
 import { IoIosCall } from "react-icons/io";
-// import { HiOutlineClipboardDocumentList } from "react-icons/";
 
 export const NavbarData = [
   {
@@ -39,7 +35,6 @@ export const NavbarData = [
   },
   {
     title: "My Blog",
-    // icon: <RiBookLine />,
     icon: <AiOutlineSchedule />,
     link: "/blog",
   },

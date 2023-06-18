@@ -6,12 +6,7 @@ function NavLinks() {
   return (
     <div className="navlinks">
       {NavbarData.map((item, index) => (
-        <NavLink
-          to={item.link}
-          key={index}
-          className="link"
-          activeclassName="active"
-        >
+        <NavLink to={item.link} key={index} className="link">
           <div className="icon" style={{ fontSize: 26 }}>
             {item.icon}
           </div>

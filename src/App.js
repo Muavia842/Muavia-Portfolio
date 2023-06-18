@@ -59,7 +59,6 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/blogsecondpage" element={<BlogSecondPage />} />
           </Routes>
-          {/* <Main /> */}
         </div>
       </BrowserRouter>
     </div>
