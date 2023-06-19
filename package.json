@@ -1,5 +1,5 @@
 {
-   "homepage": "https://Muavia842.github.io/Muavia-Portfolio",
+   "homepage": "https://Muavia842.github.io/muavia-portfolio",
    "name": "muavia-portfolio",
    "version": "0.1.0",
    "private": true,
@@ -21,11 +21,11 @@
    },
    "scripts": {
       "start": "react-scripts start",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
       "build": "react-scripts build",
       "test": "react-scripts test",
-      "eject": "react-scripts eject"
+      "eject": "react-scripts eject",
+      "predeploy": "yarn build",
+      "deploy": "gh-pages -d build"
    },
    "eslintConfig": {
       "extends": [
