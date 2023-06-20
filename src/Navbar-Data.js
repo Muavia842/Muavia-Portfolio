@@ -16,7 +16,7 @@ export const NavbarData = [
   {
     title: "Home",
     icon: <AiOutlineHome />,
-    link: "/",
+    link: "muavia-portfolio/",
   },
   {
     title: "About Me",

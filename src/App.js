@@ -51,7 +51,7 @@ function App() {
             handleClick={handleClick}
           />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="muavia-portfolio/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/portfolio" element={<Portfolio />} />
