@@ -12,7 +12,7 @@ function Home() {
           </h1>
 
           <p className="intro">
-            <span className="text first-text"> I am a </span>
+            <span className="text first-text"> I am a</span>
             <span className="text sec-text">
               <Typed
                 strings={[" Front-end Developer", " UI/UX Designer"]}
