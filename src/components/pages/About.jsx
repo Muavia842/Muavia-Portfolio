@@ -13,10 +13,8 @@ import "swiper/css/pagination";
 import "swiper/css/virtual";
 import "swiper/swiper.min.css";
 // import CarouselImage from "../../CarouselImage";
-// import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
 const PDF_FILE_URL = "http://localhost:3000/pfd/MuaviaResume.pdf";
 
-// SwiperCore.use([Navigation, Pagination, Autoplay]);
 function About() {
   // const downloadFileAtURL = (url) => {
   //   const link = document.createElement("a");
@@ -98,7 +96,6 @@ function About() {
 
           <div className="services-item">
             <Swiper
-              // spaceBetween={50}
               slidesPerView={1}
               loop={true}
               autoplay={{

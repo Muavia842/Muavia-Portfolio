@@ -3,9 +3,8 @@ import "./Blog.css";
 import { NavbarData } from "../../Navbar-Data";
 import { BlogData } from "../../BlogData";
 import { Scrollbars } from "react-custom-scrollbars";
-import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 function Blog() {
-  const navigate = useNavigate();
   return (
     <Scrollbars>
       <div className="blog-main">
@@ -15,10 +14,7 @@ function Blog() {
         </div>
         <div className="blog-row ">
           {BlogData.map((value) => (
-            <div
-              className="blog-item"
-              onClick={() => navigate("./BlogSecondPage")}
-            >
+            <NavLink className="blog-item" to="./BlogSecondPage">
               {/* <a href="./BlogSecondPage" className="blog-item"> */}
               <div className="blog-image">{value.pic}</div>
               <div className="blog-content">
@@ -27,7 +23,7 @@ function Blog() {
                 <div className="blog-date">{value.date}</div>
               </div>
               {/* </a> */}
-            </div>
+            </NavLink>
           ))}
         </div>
       </div>
