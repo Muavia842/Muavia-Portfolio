@@ -51,13 +51,16 @@ function App() {
             handleClick={handleClick}
           />
           <Routes>
-            <Route path="/muavia-portfolio/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/blog/BlogSecondPage" element={<BlogSecondPage />} />
+            <Route path="/muavia-portfolio" element={<Home />} />
+            <Route path="/muavia-portfolio/about" element={<About />} />
+            <Route path="/muavia-portfolio/resume" element={<Resume />} />
+            <Route path="/muavia-portfolio/portfolio" element={<Portfolio />} />
+            <Route path="/muavia-portfolio/blog" element={<Blog />} />
+            <Route path="/muavia-portfolio/contact" element={<Contact />} />
+            <Route
+              path="/muavia-portfolio/blog/BlogSecondPage"
+              element={<BlogSecondPage />}
+            />
           </Routes>
         </div>
       </BrowserRouter>
