@@ -14,7 +14,7 @@ function Blog() {
         </div>
         <div className="blog-row ">
           {BlogData.map((value) => (
-            <NavLink className="blog-item" to="./BlogSecondPage">
+            <NavLink className="blog-item" to="/blog/BlogSecondPage">
               {/* <a href="./BlogSecondPage" className="blog-item"> */}
               <div className="blog-image">{value.pic}</div>
               <div className="blog-content">
