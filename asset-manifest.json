@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/muavia-portfolio/static/css/main.23a81dbf.css",
-    "main.js": "/muavia-portfolio/static/js/main.e15d8e0c.js",
+    "main.js": "/muavia-portfolio/static/js/main.55440712.js",
     "static/css/623.90b70273.chunk.css": "/muavia-portfolio/static/css/623.90b70273.chunk.css",
-    "static/js/623.1b8d7d1e.chunk.js": "/muavia-portfolio/static/js/623.1b8d7d1e.chunk.js",
+    "static/js/623.cb8d4233.chunk.js": "/muavia-portfolio/static/js/623.cb8d4233.chunk.js",
     "static/js/469.f2397a0b.chunk.js": "/muavia-portfolio/static/js/469.f2397a0b.chunk.js",
     "static/media/secondblog.jpg": "/muavia-portfolio/static/media/secondblog.4437f3c2dfce28ddc38a.jpg",
     "static/media/background.jpg": "/muavia-portfolio/static/media/background.076fbdf26f56ba61597b.jpg",
@@ -24,13 +24,13 @@
     "static/media/img11.jpg": "/muavia-portfolio/static/media/img11.1a362f8af56f5b32c6af.jpg",
     "index.html": "/muavia-portfolio/index.html",
     "main.23a81dbf.css.map": "/muavia-portfolio/static/css/main.23a81dbf.css.map",
-    "main.e15d8e0c.js.map": "/muavia-portfolio/static/js/main.e15d8e0c.js.map",
+    "main.55440712.js.map": "/muavia-portfolio/static/js/main.55440712.js.map",
     "623.90b70273.chunk.css.map": "/muavia-portfolio/static/css/623.90b70273.chunk.css.map",
-    "623.1b8d7d1e.chunk.js.map": "/muavia-portfolio/static/js/623.1b8d7d1e.chunk.js.map",
+    "623.cb8d4233.chunk.js.map": "/muavia-portfolio/static/js/623.cb8d4233.chunk.js.map",
     "469.f2397a0b.chunk.js.map": "/muavia-portfolio/static/js/469.f2397a0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23a81dbf.css",
-    "static/js/main.e15d8e0c.js"
+    "static/js/main.55440712.js"
   ]
 }
