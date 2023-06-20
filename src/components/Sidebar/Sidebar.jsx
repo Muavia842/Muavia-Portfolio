@@ -3,6 +3,7 @@ import Profile from "../../assets/profile5.jpg";
 import NavLinks from "../navLinks/NavLinks";
 import SocialLinks from "../social-links/Social-Links";
 import CopyWrite from "../copy-write/CopyWrite";
+
 function Sidebar({ toggle }) {
   return (
     <div className={`header-main ${toggle ? "header-main-hidden" : ""}`}>
