@@ -18,7 +18,7 @@ export const BlogData = [
         alt="img"
         style={{
           height: "280px",
-          width: "360px",
+          width: "337px",
         }}
       />
     ),
@@ -34,7 +34,7 @@ export const BlogData = [
         alt="img"
         style={{
           height: "280px",
-          width: "360px",
+          width: "337px",
         }}
       />
     ),
@@ -50,7 +50,7 @@ export const BlogData = [
         alt="img"
         style={{
           height: "280px",
-          width: "360px",
+          width: "337px",
         }}
       />
     ),
@@ -66,7 +66,7 @@ export const BlogData = [
         alt="img"
         style={{
           height: "280px",
-          width: "360px",
+          width: "337px",
         }}
       />
     ),
@@ -82,7 +82,7 @@ export const BlogData = [
         alt="img"
         style={{
           height: "280px",
-          width: "360px",
+          width: "337px",
         }}
       />
     ),
@@ -98,7 +98,7 @@ export const BlogData = [
         alt="img"
         style={{
           height: "280px",
-          width: "360px",
+          width: "337px",
         }}
       />
     ),
@@ -114,7 +114,7 @@ export const BlogData = [
         alt="img"
         style={{
           height: "280px",
-          width: "360px",
+          width: "337px",
         }}
       />
     ),
@@ -130,7 +130,7 @@ export const BlogData = [
         alt="img"
         style={{
           height: "280px",
-          width: "360px",
+          width: "337px",
         }}
       />
     ),
@@ -146,7 +146,7 @@ export const BlogData = [
         alt="img"
         style={{
           height: "280px",
-          width: "360px",
+          width: "337px",
         }}
       />
     ),

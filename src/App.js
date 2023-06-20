@@ -57,7 +57,7 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/blogsecondpage" element={<BlogSecondPage />} />
+            <Route path="/blog/BlogSecondPage" element={<BlogSecondPage />} />
           </Routes>
         </div>
       </BrowserRouter>

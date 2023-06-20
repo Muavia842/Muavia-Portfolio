@@ -1,5 +1,5 @@
 .portfolio-main {
-  max-width: 1040px;
+  /* max-width: 1040px; */
   width: 90%;
   margin: 0 auto;
 }
@@ -51,6 +51,7 @@
 }
 
 .portfolio-items {
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;

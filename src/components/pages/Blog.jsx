@@ -3,8 +3,9 @@ import "./Blog.css";
 import { NavbarData } from "../../Navbar-Data";
 import { BlogData } from "../../BlogData";
 import { Scrollbars } from "react-custom-scrollbars";
-
+import { useNavigate } from "react-router-dom";
 function Blog() {
+  const navigate = useNavigate();
   return (
     <Scrollbars>
       <div className="blog-main">
@@ -14,14 +15,19 @@ function Blog() {
         </div>
         <div className="blog-row ">
           {BlogData.map((value) => (
-            <a href="./BlogSecondPage" className="blog-item">
+            <div
+              className="blog-item"
+              onClick={() => navigate("./BlogSecondPage")}
+            >
+              {/* <a href="./BlogSecondPage" className="blog-item"> */}
               <div className="blog-image">{value.pic}</div>
               <div className="blog-content">
                 <span className="cate">{value.category}</span>
                 <h4 className="blog-title">{value.title}</h4>
                 <div className="blog-date">{value.date}</div>
               </div>
-            </a>
+              {/* </a> */}
+            </div>
           ))}
         </div>
       </div>
