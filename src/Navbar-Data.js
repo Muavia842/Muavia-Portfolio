@@ -16,32 +16,32 @@ export const NavbarData = [
   {
     title: "Home",
     icon: <AiOutlineHome />,
-    link: "/muavia-portfolio",
+    link: "/",
   },
   {
     title: "About Me",
     icon: <BiUser />,
-    link: "/muavia-portfolio/about",
+    link: "/about",
   },
   {
     title: "Resume",
     icon: <BiLaptop />,
-    link: "/muavia-portfolio/resume",
+    link: "/resume",
   },
   {
     title: "Portfolio",
     icon: <AiOutlineSchedule />,
-    link: "/muavia-portfolio/portfolio",
+    link: "/portfolio",
   },
   {
     title: "My Blog",
     icon: <AiOutlineSchedule />,
-    link: "/muavia-portfolio/blog",
+    link: "/blog",
   },
   {
     title: "Contact Me",
     icon: <MdOutlineMail />,
-    link: "/muavia-portfolio/contact",
+    link: "/contact",
   },
 ];
 
