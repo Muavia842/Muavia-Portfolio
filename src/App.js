@@ -10,7 +10,6 @@ import Contact from "./components/pages/Contact";
 import BlogSecondPage from "./components/pages/BlogSecondPage";
 import Navbar from "./components/navbar/Navbar";
 import { useState, useEffect, useRef } from "react";
-
 function App() {
   const [toggle, setToggle] = useState(false);
   const handleClick = () => setToggle(!toggle);

@@ -51,6 +51,7 @@
 }
 
 .portfolio-items {
+  /* width: 100%; */
   width: 90%;
   display: flex;
   align-items: center;
@@ -62,7 +63,7 @@
 .item-port {
   position: relative;
   padding-right: 2em;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
   border-radius: 10px;
 }
 
@@ -89,7 +90,10 @@
 .container:hover .image-text {
   opacity: 0.8;
 }
-
+.mh img {
+  height: 280px;
+  width: 325px;
+}
 .image-text h4 {
   font-size: 20px;
   font-weight: 700;
@@ -142,6 +146,22 @@
     text-transform: uppercase;
     padding: 18px 15px;
   }
+  .portfolio-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    padding-bottom: 2em;
+  }
+
+  .item-port {
+    position: relative;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    border-radius: 10px;
+  }
 }
 
 @media screen and (max-width: 342px) {
@@ -154,10 +174,18 @@
     text-transform: uppercase;
     padding: 17px 12px;
   }
+  .portfolio-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    padding-bottom: 2em;
+  }
   .item-port {
     position: relative;
-
-    padding-bottom: 1em;
+    padding-bottom: 2em;
     border-radius: 10px;
   }
 }
