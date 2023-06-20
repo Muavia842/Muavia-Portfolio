@@ -158,7 +158,7 @@
 
   .item-port {
     position: relative;
-    /* padding-right: 2em; */
+    padding-right: 0em;
     padding-bottom: 2em;
     border-radius: 10px;
   }
