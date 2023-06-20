@@ -1,5 +1,4 @@
 .portfolio-main {
-  /* max-width: 1040px; */
   width: 90%;
   margin: 0 auto;
 }
@@ -51,18 +50,17 @@
 }
 
 .portfolio-items {
-  /* width: 100%; */
   width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   position: absolute;
+  gap: 30px;
 }
 
 .item-port {
   position: relative;
-  padding-right: 2em;
   padding-bottom: 1em;
   border-radius: 10px;
 }
@@ -147,18 +145,18 @@
     padding: 18px 15px;
   }
   .portfolio-items {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     position: absolute;
     padding-bottom: 2em;
+    gap: 30px;
   }
 
   .item-port {
     position: relative;
-    padding-right: 0em;
+
     padding-bottom: 2em;
     border-radius: 10px;
   }
@@ -175,13 +173,13 @@
     padding: 17px 12px;
   }
   .portfolio-items {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     position: absolute;
     padding-bottom: 2em;
+    gap: 30px;
   }
   .item-port {
     position: relative;
