@@ -16,8 +16,8 @@ const PortfolioData = [
   {
     id: 1,
     title: "Book Designe",
-    Code: "https://github.com/Muavia842/Daily-Notes/",
-    Live: "https://muavia842.github.io/Daily-Notes/",
+    Code: "",
+    Live: "",
     pic: (
       <img
         src={Image1}
@@ -88,8 +88,8 @@ const PortfolioData = [
   {
     id: 5,
     title: "Business Card",
-    Live: "https://muavia842.github.io/Daily-Notes/",
-    Code: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "",
+    Code: "",
     pic: (
       <img
         src={Image4}
@@ -106,8 +106,8 @@ const PortfolioData = [
   {
     id: 6,
     title: "Back Pack",
-    Live: "https://muavia842.github.io/Daily-Notes/",
-    Code: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "",
+    Code: "",
     pic: (
       <img
         src={Image5}
@@ -125,8 +125,8 @@ const PortfolioData = [
   {
     id: 7,
     title: "Creative Flyer",
-    Live: "https://muavia842.github.io/Daily-Notes/",
-    Code: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "",
+    Code: "",
     pic: (
       <img
         src={Image8}
@@ -144,8 +144,8 @@ const PortfolioData = [
   {
     id: 8,
     title: "NotePad Designe",
-    Live: "https://muavia842.github.io/Daily-Notes/",
-    Code: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "",
+    Code: "",
     pic: (
       <img
         src={Image7}
@@ -163,8 +163,8 @@ const PortfolioData = [
   {
     id: 9,
     title: "Mobile App",
-    Live: "https://muavia842.github.io/Daily-Notes/",
-    Code: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "",
+    Code: "",
     pic: (
       <img
         src={Image9}
@@ -182,8 +182,8 @@ const PortfolioData = [
   {
     id: 10,
     title: "Cup Designe",
-    Live: "https://muavia842.github.io/Daily-Notes/",
-    Code: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "",
+    Code: "",
     pic: (
       <img
         src={Image10}
@@ -201,8 +201,8 @@ const PortfolioData = [
   {
     id: 11,
     title: "Creative Box",
-    Live: "https://muavia842.github.io/Daily-Notes/",
-    Code: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "",
+    Code: "",
     pic: (
       <img
         src={Image11}
