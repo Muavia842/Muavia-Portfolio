@@ -65,8 +65,12 @@ function Portfolio() {
                     <h4>{val.title}</h4>
                   </div>
                   <div className="code-btn">
-                    <button className="source-code">Code</button>
-                    <button className="demo">Demo</button>
+                    <a href={val.codeLive}>
+                      <button className="source-code">Code</button>
+                    </a>
+                    <a href={val.codeDemo}>
+                      <button className="demo">Demo</button>
+                    </a>
                   </div>
                 </div>
               </div>

@@ -133,7 +133,9 @@
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   opacity: 0.9;
 }
-
+a {
+  text-decoration: none;
+}
 @media screen and (max-width: 404px) {
   .portfolio-btn-section .portfolio-ul li {
     font-size: 15px;
