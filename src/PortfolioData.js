@@ -16,8 +16,8 @@ const PortfolioData = [
   {
     id: 1,
     title: "Book Designe",
-    codeDemo: "https://muavia842.github.io/Daily-Notes/",
-    codeLive: "https://github.com/Muavia842/Daily-Notes/",
+    codeDemo: "https://github.com/Muavia842/Daily-Notes/",
+    codeLive: "https://muavia842.github.io/Daily-Notes/",
     pic: (
       <img
         src={Image1}
