@@ -16,8 +16,8 @@ const PortfolioData = [
   {
     id: 1,
     title: "Book Designe",
-    codeDemo: "https://github.com/Muavia842/Daily-Notes/",
-    codeLive: "https://muavia842.github.io/Daily-Notes/",
+    Code: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "https://muavia842.github.io/Daily-Notes/",
     pic: (
       <img
         src={Image1}
@@ -34,8 +34,8 @@ const PortfolioData = [
   {
     id: 2,
     title: "NotePad Designe",
-    codeDemo: "https://muavia842.github.io/Daily-Notes/",
-    codeLive: "https://github.com/Muavia842/Daily-Notes/",
+    Code: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "https://muavia842.github.io/Daily-Notes/",
     pic: (
       <img
         src={Image2}
@@ -52,9 +52,8 @@ const PortfolioData = [
   {
     id: 3,
     title: "Calculator App",
-    codeDemo: "https://github.com/Muavia842/Calculator-App",
-    codeLive:
-      "https://6493d46de108d61d49bc67f5--dapper-liger-fd54a2.netlify.app/",
+    Code: "https://github.com/Muavia842/Calculator-App",
+    Live: "https://6493d46de108d61d49bc67f5--dapper-liger-fd54a2.netlify.app/",
     pic: (
       <img
         src={Calculator}
@@ -71,8 +70,8 @@ const PortfolioData = [
   {
     id: 4,
     title: "Monster Rolodex",
-    codeDemo: "https://github.com/Muavia842/monsters-rolodex/",
-    codeLive: "https://muavia842.github.io/monsters-rolodex/",
+    Code: "https://github.com/Muavia842/monsters-rolodex/",
+    Live: "https://muavia842.github.io/monsters-rolodex/",
     pic: (
       <img
         src={Monster}
@@ -89,8 +88,8 @@ const PortfolioData = [
   {
     id: 5,
     title: "Business Card",
-    codeDemo: "https://muavia842.github.io/Daily-Notes/",
-    codeLive: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "https://muavia842.github.io/Daily-Notes/",
+    Code: "https://github.com/Muavia842/Daily-Notes/",
     pic: (
       <img
         src={Image4}
@@ -107,8 +106,8 @@ const PortfolioData = [
   {
     id: 6,
     title: "Back Pack",
-    codeDemo: "https://muavia842.github.io/Daily-Notes/",
-    codeLive: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "https://muavia842.github.io/Daily-Notes/",
+    Code: "https://github.com/Muavia842/Daily-Notes/",
     pic: (
       <img
         src={Image5}
@@ -126,8 +125,8 @@ const PortfolioData = [
   {
     id: 7,
     title: "Creative Flyer",
-    codeDemo: "https://muavia842.github.io/Daily-Notes/",
-    codeLive: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "https://muavia842.github.io/Daily-Notes/",
+    Code: "https://github.com/Muavia842/Daily-Notes/",
     pic: (
       <img
         src={Image8}
@@ -145,8 +144,8 @@ const PortfolioData = [
   {
     id: 8,
     title: "NotePad Designe",
-    codeDemo: "https://muavia842.github.io/Daily-Notes/",
-    codeLive: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "https://muavia842.github.io/Daily-Notes/",
+    Code: "https://github.com/Muavia842/Daily-Notes/",
     pic: (
       <img
         src={Image7}
@@ -164,8 +163,8 @@ const PortfolioData = [
   {
     id: 9,
     title: "Mobile App",
-    codeDemo: "https://muavia842.github.io/Daily-Notes/",
-    codeLive: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "https://muavia842.github.io/Daily-Notes/",
+    Code: "https://github.com/Muavia842/Daily-Notes/",
     pic: (
       <img
         src={Image9}
@@ -183,8 +182,8 @@ const PortfolioData = [
   {
     id: 10,
     title: "Cup Designe",
-    codeDemo: "https://muavia842.github.io/Daily-Notes/",
-    codeLive: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "https://muavia842.github.io/Daily-Notes/",
+    Code: "https://github.com/Muavia842/Daily-Notes/",
     pic: (
       <img
         src={Image10}
@@ -202,8 +201,8 @@ const PortfolioData = [
   {
     id: 11,
     title: "Creative Box",
-    codeDemo: "https://muavia842.github.io/Daily-Notes/",
-    codeLive: "https://github.com/Muavia842/Daily-Notes/",
+    Live: "https://muavia842.github.io/Daily-Notes/",
+    Code: "https://github.com/Muavia842/Daily-Notes/",
     pic: (
       <img
         src={Image11}
