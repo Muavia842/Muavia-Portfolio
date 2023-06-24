@@ -15,9 +15,13 @@ import Calculator from "./assets/calculator1.jpg";
 const PortfolioData = [
   {
     id: 1,
+    btnCode: <a href="/">Coming Soon</a>,
+    btnDemo: <a href="/">Coming Soon</a>,
+    // btnCode: "Coming Soon",
+    // btnDemo: "Coming Soon",
+    // Code: "",
+    // Live: "",
     title: "Book Designe",
-    Code: "",
-    Live: "",
     pic: (
       <img
         src={Image1}
@@ -34,8 +38,12 @@ const PortfolioData = [
   {
     id: 2,
     title: "NotePad Designe",
-    Code: "https://github.com/Muavia842/Daily-Notes/",
-    Live: "https://muavia842.github.io/Daily-Notes/",
+    btnCode: <a href="https://github.com/Muavia842/Daily-Notes/">Code</a>,
+    btnDemo: <a href="https://muavia842.github.io/Daily-Notes/">Demo</a>,
+    // btnCode: "Code",
+    // btnDemo: "Demo",
+    // Code: "https://github.com/Muavia842/Daily-Notes/",
+    // Live: "https://muavia842.github.io/Daily-Notes/",
     pic: (
       <img
         src={Image2}
@@ -52,8 +60,12 @@ const PortfolioData = [
   {
     id: 3,
     title: "Calculator App",
-    Code: "https://github.com/Muavia842/Calculator-App",
-    Live: "https://6493d46de108d61d49bc67f5--dapper-liger-fd54a2.netlify.app/",
+    btnCode: <a href="https://github.com/Muavia842/Calculator-App">Code</a>,
+    btnDemo: <a href="/comingsoon">Demo</a>,
+    // btnCode: "Code",
+    // btnDemo: "Demo",
+    // Code: "https://github.com/Muavia842/Calculator-App",
+    // Live: "/comingsoon",
     pic: (
       <img
         src={Calculator}
@@ -70,8 +82,12 @@ const PortfolioData = [
   {
     id: 4,
     title: "Monster Rolodex",
-    Code: "https://github.com/Muavia842/monsters-rolodex/",
-    Live: "https://muavia842.github.io/monsters-rolodex/",
+    btnCode: <a href="https://github.com/Muavia842/monsters-rolodex/">Code</a>,
+    btnDemo: <a href="https://muavia842.github.io/monsters-rolodex/">Demo</a>,
+    // btnCode: "Code",
+    // btnDemo: "Demo",
+    // Code: "https://github.com/Muavia842/monsters-rolodex/",
+    // Live: "https://muavia842.github.io/monsters-rolodex/",
     pic: (
       <img
         src={Monster}
@@ -88,8 +104,12 @@ const PortfolioData = [
   {
     id: 5,
     title: "Business Card",
-    Live: "",
-    Code: "",
+    btnCode: <a href="/comingsoon">Coming Soon</a>,
+    btnDemo: <a href="/comingsoon">Coming Soon</a>,
+    // btnCode: "Coming Soon",
+    // btnDemo: "Coming Soon",
+    // Live: "",
+    // Code: "",
     pic: (
       <img
         src={Image4}
@@ -106,8 +126,12 @@ const PortfolioData = [
   {
     id: 6,
     title: "Back Pack",
-    Live: "",
-    Code: "",
+    btnCode: <a href="/comingsoon">Coming Soon</a>,
+    btnDemo: <a href="/comingsoon">Coming Soon</a>,
+    // btnCode: "Coming Soon",
+    // btnDemo: "Coming Soon",
+    // Live: "",
+    // Code: "",
     pic: (
       <img
         src={Image5}
@@ -125,8 +149,12 @@ const PortfolioData = [
   {
     id: 7,
     title: "Creative Flyer",
-    Live: "",
-    Code: "",
+    btnCode: <a href="/comingsoon">Coming Soon</a>,
+    btnDemo: <a href="/comingsoon">Coming Soon</a>,
+    // btnCode: "Coming Soon",
+    // btnDemo: "Coming Soon",
+    // Live: "",
+    // Code: "",
     pic: (
       <img
         src={Image8}
@@ -144,8 +172,12 @@ const PortfolioData = [
   {
     id: 8,
     title: "NotePad Designe",
-    Live: "",
-    Code: "",
+    btnCode: <a href="/comingsoon">Coming Soon</a>,
+    btnDemo: <a href="/comingsoon">Coming Soon</a>,
+    // btnCode: "Coming Soon",
+    // btnDemo: "Coming Soon",
+    // Live: "",
+    // Code: "",
     pic: (
       <img
         src={Image7}
@@ -163,8 +195,12 @@ const PortfolioData = [
   {
     id: 9,
     title: "Mobile App",
-    Live: "",
-    Code: "",
+    btnCode: <a href="/comingsoon">Coming Soon</a>,
+    btnDemo: <a href="/comingsoon">Coming Soon</a>,
+    // btnCode: "Coming Soon",
+    // btnDemo: "Coming Soon",
+    // Live: "",
+    // Code: "",
     pic: (
       <img
         src={Image9}
@@ -182,8 +218,12 @@ const PortfolioData = [
   {
     id: 10,
     title: "Cup Designe",
-    Live: "",
-    Code: "",
+    btnCode: <a href="/comingsoon">Coming Soon</a>,
+    btnDemo: <a href="/comingsoon">Coming Soon</a>,
+    // btnCode: "Coming Soon",
+    // btnDemo: "Coming Soon",
+    // Live: "",
+    // Code: "",
     pic: (
       <img
         src={Image10}
@@ -201,8 +241,12 @@ const PortfolioData = [
   {
     id: 11,
     title: "Creative Box",
-    Live: "",
-    Code: "",
+    btnCode: <a href="/comingsoon">Coming Soon</a>,
+    btnDemo: <a href="/comingsoon">Coming Soon</a>,
+    // btnCode: "Coming Soon",
+    // btnDemo: "Coming Soon",
+    // Live: "",
+    // Code: "",
     pic: (
       <img
         src={Image11}

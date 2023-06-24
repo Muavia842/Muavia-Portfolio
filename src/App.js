@@ -10,6 +10,7 @@ import Contact from "./components/pages/Contact";
 import BlogSecondPage from "./components/pages/BlogSecondPage";
 import Navbar from "./components/navbar/Navbar";
 import { useState, useEffect, useRef } from "react";
+import ComingSoon from "./components/pages/ComingSoon";
 function App() {
   const [toggle, setToggle] = useState(false);
   const handleClick = () => setToggle(!toggle);
@@ -36,7 +37,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="/muavia-portfolio">
+      <BrowserRouter>
         <div className="sidebar" ref={sidebarRef}>
           <div className="sidebar-desktop" ref={desktopSidebarRef}>
             <Sidebar />
@@ -57,6 +58,7 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog/BlogSecondPage" element={<BlogSecondPage />} />
+            <Route path="/comingsoon" exact element={<ComingSoon />} />
           </Routes>
         </div>
       </BrowserRouter>

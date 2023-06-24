@@ -10,12 +10,11 @@ function Home() {
           <h1>
             Muavia <span>Haidry</span>
           </h1>
-
           <p className="intro">
-            <span className="text first-text"> I am a</span>
+            <span className="text first-text">I am a&nbsp;</span>
             <span className="text sec-text">
               <Typed
-                strings={[" Front-end Developer", " UI/UX Designer"]}
+                strings={["Front-end Developer", "UI/UX Designer"]}
                 typeSpeed={40}
                 backSpeed={13}
                 loop

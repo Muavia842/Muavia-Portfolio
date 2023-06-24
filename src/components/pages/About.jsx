@@ -12,18 +12,18 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/virtual";
 import "swiper/swiper.min.css";
-// import CarouselImage from "../../CarouselImage";
-const PDF_FILE_URL = "http://localhost:3000/pfd/MuaviaResume.pdf";
+// import CarouselImage from "../../assets/comingSoon.jpeg";
+const PDF_FILE_URL = "../../assets/comingSoon.jpeg";
 
 function About() {
-  // const downloadFileAtURL = (url) => {
-  //   const link = document.createElement("a");
-  //   link.href = url;
-  //   link.setAttribute("download", true);
-  //   document.body.appendChild(link);
-  //   link.click();
-  //   document.body.removeChild(link);
-  // };
+  const downloadFileAtURL = (url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", true);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   SwiperCore.use([Autoplay]);
 
   return (
@@ -68,21 +68,21 @@ function About() {
             ))}
 
             <div className="button-main">
-              <a
+              {/* <a
                 href={PDF_FILE_URL}
                 download="MuaviaResume.pdf"
                 className="btn-btn"
               >
                 Download Resume
-              </a>
-              {/* <button
+              </a> */}
+              <button
                 onClick={() => {
                   downloadFileAtURL(PDF_FILE_URL);
                 }}
                 className="btn-btn"
               >
                 Download Resume
-              </button> */}
+              </button>
             </div>
           </div>
         </div>
