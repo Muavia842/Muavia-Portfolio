@@ -60,7 +60,9 @@ const PortfolioData = [
   {
     id: 3,
     title: "Calculator App",
-    btnCode: <a href="https://github.com/Muavia842/Calculator-App">Code</a>,
+    btnCode: (
+      <a href="https://github.com/Muavia842/calculators/tree/main">Code</a>
+    ),
     btnDemo: <a href="https://dapper-liger-fd54a2.netlify.app/">Demo</a>,
     // btnCode: "Code",
     // btnDemo: "Demo",
