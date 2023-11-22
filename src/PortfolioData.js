@@ -106,8 +106,9 @@ const PortfolioData = [
   {
     id: 5,
     title: 'Create Post',
-    btnCode: 'Coming Soon',
-    btnDemo: 'Coming Soon',
+    btnCode: <a href="https://github.com/Muavia842/Create-Post">Code</a>,
+    btnDemo: <a href="https://create-post-web.netlify.app/">Demo</a>,
+
     // btnCode: "Coming Soon",
     // btnDemo: "Coming Soon",
     // Live: "",

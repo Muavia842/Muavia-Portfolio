@@ -1,16 +1,16 @@
-import "./App.css";
-import Sidebar from "./components/Sidebar/Sidebar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Resume from "./components/pages/Resume";
-import Portfolio from "./components/pages/Portfolio";
-import Blog from "./components/pages/Blog";
-import Contact from "./components/pages/Contact";
-import BlogSecondPage from "./components/pages/BlogSecondPage";
-import Navbar from "./components/navbar/Navbar";
-import { useState, useEffect, useRef } from "react";
-import ComingSoon from "./components/pages/ComingSoon";
+import './App.css';
+import Sidebar from './components/Sidebar/Sidebar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Resume from './components/pages/Resume';
+import Portfolio from './components/pages/Portfolio';
+import Blog from './components/pages/Blog';
+import Contact from './components/pages/Contact';
+import BlogSecondPage from './components/pages/BlogSecondPage';
+import Navbar from './components/navbar/Navbar';
+import { useState, useEffect, useRef } from 'react';
+import ComingSoon from './components/pages/ComingSoon';
 function App() {
   const [toggle, setToggle] = useState(false);
   const handleClick = () => setToggle(!toggle);
@@ -29,9 +29,9 @@ function App() {
       }
     };
 
-    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener('mousedown', handleClickOutside);
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener('mousedown', handleClickOutside);
     };
   }, []);
 
@@ -42,7 +42,7 @@ function App() {
           <div className="sidebar-desktop" ref={desktopSidebarRef}>
             <Sidebar />
           </div>
-          {toggle ? <Sidebar toggle={toggle} /> : ""}
+          {toggle ? <Sidebar toggle={toggle} /> : ''}
         </div>
         <div className="pages">
           <Navbar
