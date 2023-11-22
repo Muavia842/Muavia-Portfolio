@@ -1,6 +1,6 @@
-import "./navlinks.css";
-import { NavbarData } from "../../Navbar-Data";
-import { NavLink } from "react-router-dom";
+import './navlinks.css';
+import { NavbarData } from '../../data/Navbar-Data';
+import { NavLink } from 'react-router-dom';
 function NavLinks() {
   return (
     <div className="navlinks">

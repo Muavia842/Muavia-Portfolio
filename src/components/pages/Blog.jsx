@@ -1,9 +1,9 @@
-import React from "react";
-import "./Blog.css";
-import { NavbarData } from "../../Navbar-Data";
-import { BlogData } from "../../BlogData";
-import { Scrollbars } from "react-custom-scrollbars";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import './Blog.css';
+import { NavbarData } from '../../data/Navbar-Data';
+import { BlogData } from '../../BlogData';
+import { Scrollbars } from 'react-custom-scrollbars';
+import { NavLink } from 'react-router-dom';
 function Blog() {
   return (
     <Scrollbars>

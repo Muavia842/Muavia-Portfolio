@@ -1,9 +1,9 @@
 import React from 'react';
 import './About.css';
 // import Bounce from "react-reveal/Bounce";
-import { NavbarData } from '../../Navbar-Data';
-import { PersonalData } from '../../Navbar-Data';
-import { ServicesData } from '../../Navbar-Data';
+import { NavbarData } from '../../data/Navbar-Data';
+import { PersonalData } from '../../data/Navbar-Data';
+import { ServicesData } from '../../data/Navbar-Data';
 import { Scrollbars } from 'react-custom-scrollbars';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay } from 'swiper';

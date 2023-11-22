@@ -1,9 +1,15 @@
 import React from 'react';
 import './Resume.css';
-import { NavbarData } from '../../Navbar-Data';
-import { ResumeDataEducation, ResumeDataExperience } from '../ResumeData';
+import { NavbarData } from '../../data/Navbar-Data';
+import {
+  ResumeDataEducation,
+  ResumeDataExperience,
+} from '../../data/ResumeData';
 import { Scrollbars } from 'react-custom-scrollbars';
-import { ProgressDataCoding, ProgressDataDesigning } from '../ProgressBarData';
+import {
+  ProgressDataCoding,
+  ProgressDataDesigning,
+} from '../../data/ProgressBarData';
 function Resume() {
   return (
     <Scrollbars>

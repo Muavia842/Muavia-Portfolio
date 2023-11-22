@@ -1,8 +1,8 @@
-import React from "react";
-import "./BlogSecondPage.css";
-import SecondBlog from "../../assets/blogImage/secondblog.jpg";
-import { Scrollbars } from "react-custom-scrollbars";
-import { CommentSection, SecondBlogData } from "../../SecondBlogData";
+import React from 'react';
+import './BlogSecondPage.css';
+import SecondBlog from '../../assets/blogImage/secondblog.jpg';
+import { Scrollbars } from 'react-custom-scrollbars';
+import { CommentSection, SecondBlogData } from '../../data/SecondBlogData';
 function BlogSecondPage() {
   return (
     <Scrollbars>

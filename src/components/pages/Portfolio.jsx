@@ -86,16 +86,16 @@
 
 // export default Portfolio;
 
-import React, { useState } from "react";
-import "./Portfolio.css";
-import { NavbarData } from "../../Navbar-Data";
-import PortfolioData from "../../PortfolioData";
-import { Scrollbars } from "react-custom-scrollbars";
+import React, { useState } from 'react';
+import './Portfolio.css';
+import { NavbarData } from '../../data/Navbar-Data';
+import PortfolioData from '../../data/PortfolioData';
+import { Scrollbars } from 'react-custom-scrollbars';
 // import ComingSoon from "./ComingSoon";
 
 function Portfolio() {
   const [item, setItem] = useState(PortfolioData);
-  const [activeItem, setActiveItem] = useState("ALL");
+  const [activeItem, setActiveItem] = useState('ALL');
 
   const filterItem = (categItem) => {
     const updateData = PortfolioData.filter((curElem) => {
@@ -118,27 +118,27 @@ function Portfolio() {
             <li
               onClick={() => {
                 setItem(PortfolioData);
-                setActiveItem("ALL");
+                setActiveItem('ALL');
               }}
-              className={activeItem === "ALL" ? "active" : ""}
+              className={activeItem === 'ALL' ? 'active' : ''}
             >
               ALL
             </li>
             <li
-              onClick={() => filterItem("brand")}
-              className={activeItem === "brand" ? "active" : ""}
+              onClick={() => filterItem('brand')}
+              className={activeItem === 'brand' ? 'active' : ''}
             >
               BRAND
             </li>
             <li
-              onClick={() => filterItem("designe")}
-              className={activeItem === "designe" ? "active" : ""}
+              onClick={() => filterItem('designe')}
+              className={activeItem === 'designe' ? 'active' : ''}
             >
               DESIGN
             </li>
             <li
-              onClick={() => filterItem("graphic")}
-              className={activeItem === "graphic" ? "active" : ""}
+              onClick={() => filterItem('graphic')}
+              className={activeItem === 'graphic' ? 'active' : ''}
             >
               GRAPHIC
             </li>

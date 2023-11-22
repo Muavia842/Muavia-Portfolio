@@ -1,16 +1,16 @@
-import Image1 from './assets/img1.jpg';
-import Image2 from './assets/img2.jpg';
+import Image1 from '../assets/img1.jpg';
+import Image2 from '../assets/img2.jpg';
 // import Image3 from "./assets/img3.jpg";
-import Monster from './assets/monster.png';
-import Image4 from './assets/img4.png';
-import Image5 from './assets/img5.jpg';
+import Monster from '../assets/monster.png';
+import Image4 from '../assets/img4.png';
+import Image5 from '../assets/img5.jpg';
 // import Image6 from "./assets/img6.jpg";
-import Image7 from './assets/img7.jpg';
-import Image8 from './assets/img8.jpg';
-import Image9 from './assets/img9.jpg';
-import Image10 from './assets/img10.jpg';
-import Image11 from './assets/img11.jpg';
-import Calculator from './assets/calculator1.jpg';
+import Image7 from '../assets/img7.jpg';
+import Image8 from '../assets/img8.jpg';
+import Image9 from '../assets/img9.jpg';
+import Image10 from '../assets/img10.jpg';
+import Image11 from '../assets/img11.jpg';
+import Calculator from '../assets/calculator1.jpg';
 // import Image13 from "./assets/13.avif";
 const PortfolioData = [
   {

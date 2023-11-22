@@ -1,8 +1,8 @@
-import React from "react";
-import "./Contact.css";
-import { Scrollbars } from "react-custom-scrollbars";
-import { NavbarData } from "../../Navbar-Data";
-import { PersonalData } from "../../Navbar-Data";
+import React from 'react';
+import './Contact.css';
+import { Scrollbars } from 'react-custom-scrollbars';
+import { NavbarData } from '../../data/Navbar-Data';
+import { PersonalData } from '../../data/Navbar-Data';
 
 function Contact() {
   return (
