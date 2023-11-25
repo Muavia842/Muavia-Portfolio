@@ -15,14 +15,12 @@ function Blog() {
         <div className="blog-row ">
           {BlogData.map((value) => (
             <NavLink className="blog-item" to="/blog/BlogSecondPage">
-              {/* <a href="./BlogSecondPage" className="blog-item"> */}
               <div className="blog-image">{value.pic}</div>
               <div className="blog-content">
                 <span className="cate">{value.category}</span>
                 <h4 className="blog-title">{value.title}</h4>
                 <div className="blog-date">{value.date}</div>
               </div>
-              {/* </a> */}
             </NavLink>
           ))}
         </div>

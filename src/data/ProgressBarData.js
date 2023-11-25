@@ -21,18 +21,18 @@ export const ProgressDataCoding = [
   },
   {
     title: 'Next JS',
-    persentage: '75%',
+    persentage: '50%',
     class: 'next',
   },
   {
     title: 'React Native',
-    persentage: '70%',
-    class: 'next',
+    persentage: '60%',
+    class: 'native',
   },
   {
     title: 'Type Script',
     persentage: '50%',
-    class: 'next',
+    class: 'typeScript',
   },
 ];
 

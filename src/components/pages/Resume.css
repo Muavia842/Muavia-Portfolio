@@ -2,7 +2,6 @@
   height: 100vh;
   width: 90%;
   margin: auto;
-  /* background-color: aqua; */
 }
 .resume-heading-sec {
   color: #00a3e1;
@@ -23,32 +22,23 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* align-items: center; */
   width: 100%;
   gap: 80px;
-  /* margin-bottom: 40px; */
 }
 .experienceset {
   width: 45%;
 }
 .educationset {
   width: 45%;
-  /* margin-top: -62px; */
 }
 .experience {
   width: 100%;
-  /* padding: 0px 15px; */
-  /* background-color: aqua; */
 }
 .education {
-  /* padding: 0px 15px; */
   width: 100%;
-  /* background-color: aquamarine; */
 }
 
 .experience-sub-heading {
-  /* position: relative; */
-  /* left: 90px; */
   margin-bottom: 29px;
   text-align: center;
 }
@@ -64,7 +54,6 @@
   text-transform: uppercase;
   padding: 5px 10px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.6);
-  /* color: #00a3e1; */
 }
 .experience-sub-heading h3::before {
   background-color: #00a3e1;
@@ -96,9 +85,8 @@
 .experience-ul li {
   position: relative;
   margin-left: 10px;
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 70px;
-  /* height: 200px; */
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -108,10 +96,11 @@
 }
 .left-line {
   width: 2px;
-  height: 100%;
+  height: 90%;
   background-color: #e1e1e1;
   left: -10px;
-  top: 0;
+  top: 10px;
+
   position: absolute;
   background-color: #00a3e1 !important;
 }
@@ -208,19 +197,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: center; */
   width: 100%;
   gap: 80px;
-  /* background-color: aqua; */
-  /* justify-content: space-between; */
 }
 .setwidht {
   width: 45%;
-  /* width: 400px; */
 }
 .setheight {
   width: 45%;
-  /* width: 400px; */
 }
 .coding-skills {
   width: 100%;
@@ -277,7 +261,6 @@
 }
 .skill-box .title {
   display: block;
-
   font-family: 'Playfair Display', serif;
   font-size: 16px;
   font-weight: 500;
@@ -318,7 +301,7 @@
   animation-delay: 0.7s;
 }
 .skill-per.next {
-  width: 75%;
+  width: 50%;
   animation-delay: 0.6s;
 }
 .skill-per.native {

@@ -34,10 +34,10 @@ function Resume() {
                         {/* <h5>{item.insitute}</h5> */}
                         <p>{item.about}</p>
                       </div>
-                      <span className="year">
+                      {/* <span className="year">
                         <span className="to">{item.yearTo}</span>
                         <span className="from">{item.yearFrom}</span>
-                      </span>
+                      </span> */}
                     </li>
                   ))}
                 </ul>
@@ -59,10 +59,10 @@ function Resume() {
                         {/* <h5>{item.insitute}</h5> */}
                         <p>{item.about}</p>
                       </div>
-                      <span className="year">
+                      {/* <span className="year">
                         <span className="to">{item.yearTo}</span>
                         <span className="from">{item.yearFrom}</span>
-                      </span>
+                      </span> */}
                     </li>
                   ))}
                 </ul>

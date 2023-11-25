@@ -36,6 +36,7 @@
 .header-main-hidden {
   background-color: #17181b;
   height: 100%;
+  margin-top: 13%;
   width: 200px;
   overflow: hidden;
   display: none;

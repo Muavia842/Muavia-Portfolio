@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-// import Bounce from "react-reveal/Bounce";
 import { NavbarData } from '../../data/Navbar-Data';
 import { PersonalData } from '../../data/Navbar-Data';
 import { ServicesData } from '../../data/Navbar-Data';
@@ -12,18 +11,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/virtual';
 import 'swiper/swiper.min.css';
-// import CarouselImage from "../../assets/comingSoon.jpeg";
-// const PDF_FILE_URL = "../../assets/comingSoon.jpeg";
 
 function About() {
-  // const downloadFileAtURL = (url) => {
-  //   const link = document.createElement("a");
-  //   link.href = url;
-  //   link.setAttribute("download", true);
-  //   document.body.appendChild(link);
-  //   link.click();
-  //   document.body.removeChild(link);
-  // };
   SwiperCore.use([Autoplay]);
 
   return (
@@ -68,7 +57,7 @@ function About() {
             ))}
 
             <div className="button-main">
-              <a href="muavia.pdf.pdf" download="Muavia Haidri Resume">
+              <a href="muavia.resume.pdf" download="Muavia Haidri Resume">
                 <button className="btn-btn">Download Resume</button>
               </a>
             </div>
