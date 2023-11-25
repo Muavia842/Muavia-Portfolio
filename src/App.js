@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="/muavia-portfolio">
+      <BrowserRouter basename="/">
         <div className="sidebar" ref={sidebarRef}>
           <div className="sidebar-desktop" ref={desktopSidebarRef}>
             <Sidebar />
