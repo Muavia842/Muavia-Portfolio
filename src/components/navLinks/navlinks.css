@@ -14,7 +14,7 @@
   text-decoration: none;
   position: relative;
   color: #808080;
-  border-bottom: 1px solid #202226;
+  border-bottom: 1px solid #0b1c2e;
   border-left: 2px solid transparent;
 }
 
@@ -23,7 +23,7 @@
   border-left: 2px solid #00a3e1;
   cursor: pointer;
   color: white;
-  background-color: #151617;
+  background-color: #0b1c2e;
 }
 .active {
   color: white;

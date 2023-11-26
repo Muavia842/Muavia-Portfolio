@@ -273,14 +273,14 @@
   width: 100%;
   margin-top: 20px;
   height: 10px;
-  background-color: #404144;
+  background-color: #00a3e1;
 }
 .skill-bar .skill-per {
   position: relative;
   display: block;
   height: 100%;
   width: 100%;
-  background-color: #00a3e1;
+  background-color: #0000aa;
   animation: progress 5s ease-in-out forwards;
   opacity: 0;
 }
@@ -339,7 +339,7 @@
   content: '';
   position: absolute;
   left: 50%;
-  bottom: -2px;
+  bottom: -4px;
   height: 8px;
   width: 8px;
   z-index: -1;
