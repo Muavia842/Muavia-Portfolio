@@ -1,11 +1,9 @@
 import React from 'react';
 import './Social-Links.css';
-// import { GrFacebookOption } from "react-icons/gr";
 import {
   AiFillTwitterSquare,
   AiFillBehanceSquare,
   AiFillLinkedin,
-  AiFillFacebook,
   AiFillInstagram,
 } from 'react-icons/ai';
 import { FaGithubSquare } from 'react-icons/fa';
