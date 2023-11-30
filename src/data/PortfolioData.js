@@ -3,7 +3,8 @@ import Image2 from '../assets/img2.jpg';
 // import Image3 from "./assets/img3.jpg";
 import Monster from '../assets/monster.png';
 import Image4 from '../assets/img4.png';
-import Image5 from '../assets/img5.jpg';
+import Image5 from '../assets/image5.png';
+// import Image5 from '../assets/img5.jpg';
 // import Image6 from "./assets/img6.jpg";
 import Image7 from '../assets/img7.jpg';
 import Image8 from '../assets/img8.jpg';
@@ -128,13 +129,9 @@ const PortfolioData = [
   },
   {
     id: 6,
-    title: 'Back Pack',
-    btnCode: 'Coming Soon',
-    btnDemo: 'Coming Soon',
-    // btnCode: "Coming Soon",
-    // btnDemo: "Coming Soon",
-    // Live: "",
-    // Code: "",
+    title: 'online-store',
+    btnCode: <a href="https://github.com/Muavia842/store-web">Code</a>,
+    btnDemo: <a href="https://online-store-web.netlify.app/">Demo</a>,
     pic: (
       <img
         src={Image5}
